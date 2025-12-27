@@ -69,4 +69,4 @@ function classifyTask({ title, description }) {
     };
 }
 
-module.exports = { classifyTask };
+export default { classifyTask };
