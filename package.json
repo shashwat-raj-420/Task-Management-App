@@ -1,0 +1,29 @@
+{
+  "name": "task_management_app",
+  "version": "1.0.0",
+  "description": "task_management_app using flutter supabase render.com node.js",
+  "homepage": "https://github.com/shashwat-raj-420/Task-Management-App#readme",
+  "bugs": {
+    "url": "https://github.com/shashwat-raj-420/Task-Management-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashwat-raj-420/Task-Management-App.git"
+  },
+  "license": "ISC",
+  "author": "shashwat raj",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.89.0",
+    "express": "^5.2.1"
+  }
+}
